@@ -1,14 +1,20 @@
 function TarjetaNoticia({ info }) {
   return (
-    <div className="card">
-      <span>Autor #{info.userId}</span>
+    <article className="card">
 
-      <h3>{info.title}</h3>
+      <div className="tag">
+        Autor #{info.userId}
+      </div>
+
+      <h2>{info.title}</h2>
 
       <p>{info.body}</p>
 
-      <button>Leer más</button>
-    </div>
+      <button>
+        Leer artículo
+      </button>
+
+    </article>
   );
 }
 
