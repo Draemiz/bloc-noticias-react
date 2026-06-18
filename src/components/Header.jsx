@@ -3,7 +3,6 @@ function Header() {
     <>
       <header className="header">
         <div className="logo-container">
-          <span className="logo-mark">✦</span>
 
           <div>
             <h1>Bloom News</h1>
